@@ -27,3 +27,15 @@ Goのチュートリアルを実際にやってみた。
 
 ## Go Packages
 https://pkg.go.dev/
+
+## Let's start Go 
+```shell
+go mod init example/hello
+```
+
+**`go mod init　[import path]`は何をしているのか?**  
+`go.mod`という、モジュール名と使用するパッケージの依存関係を管理するファイルを作成する  
+
+```shell
+go mod tidy
+```
